@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.android.quiz.WeeklyScheduleFragment">
+
+    <com.desai.vatsal.mydynamiccalendar.MyDynamicCalendar
+        android:id="@+id/myCalendar1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+    <io.ghyeok.stickyswitch.widget.StickySwitch
+        android:id="@+id/weeklySchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:ss_animationDuration="600"
+        app:ss_iconPadding="18dp"
+        app:ss_iconSize="22dp"
+        app:ss_leftText="@string/week"
+        app:ss_rightText="@string/month"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="120dp"
+        android:background="@color/colorAccent"
+        app:ss_textColor="@color/black"
+        android:text="Weekly Schedule"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+</FrameLayout>
